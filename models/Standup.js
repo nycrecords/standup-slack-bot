@@ -4,7 +4,7 @@ var log = require('../getLogger')('Standup model');
 
 module.exports = function (sequelize, DataTypes) {
   log.verbose('Initializing');
-    var Standup = sequelize.define('Standup', {
+    var Standup = sequelize.define('standup', {
         channel: {
           type: DataTypes.STRING
         },

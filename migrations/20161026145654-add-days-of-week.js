@@ -10,35 +10,35 @@ module.exports = {
       return queryInterface.createTable('users', { id: Sequelize.INTEGER });
     */
     return queryInterface.addColumn(
-      'Channels',
+      'channels',
       'monday',
       {
         type: Sequelize.BOOLEAN,
         defaultValue: true
       }
     ).then(() => queryInterface.addColumn(
-      'Channels',
+      'channels',
       'tuesday',
       {
         type: Sequelize.BOOLEAN,
         defaultValue: true
       }
     )).then(() => queryInterface.addColumn(
-      'Channels',
+      'channels',
       'wednesday',
       {
         type: Sequelize.BOOLEAN,
         defaultValue: true
       }
     )).then(() => queryInterface.addColumn(
-      'Channels',
+      'channels',
       'thursday',
       {
         type: Sequelize.BOOLEAN,
         defaultValue: true
       }
     )).then(() => queryInterface.addColumn(
-      'Channels',
+      'channels',
       'friday',
       {
         type: Sequelize.BOOLEAN,

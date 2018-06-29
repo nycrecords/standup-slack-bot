@@ -10,7 +10,7 @@ module.exports = {
       return queryInterface.createTable('users', { id: Sequelize.INTEGER });
     */
     return queryInterface.addColumn(
-      'Channels',
+      'channels',
       'audience',
       {
         type: Sequelize.STRING,
